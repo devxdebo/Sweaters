@@ -1,0 +1,153 @@
+@font-face {
+  font-family: heading;
+  src: url(./Amsterdam\ Handwriting.ttf);
+}
+
+@font-face {
+  font-family: mandira;
+  src: url(./StMartin-Light.woff2);
+}
+
+@font-face {
+  font-family: mandiradark;
+  src: url(./StMartin-Medium.woff2);
+}
+
+@font-face {
+  font-family: debo;
+  src: url(./Shadow\ of\ the\ Deads.ttf);
+}
+
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   background-color: #E8E8E8;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-family: mandira;
+  font-size: 20px;
+
+}
+.leftelement ul{
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+}
+.leftelement, .rightelement{
+  width: 270px;
+}
+ul li{
+  list-style-type: none;
+}
+
+.middleelement{
+  font-family: debo;
+  transform: scaleX(2);
+  /* transform: scaleY(1.2); 1.0 = normal, >1 = wider, <1 = narrower */
+  display: inline-block; 
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+.leftalign{
+  margin-left: 70px;
+}
+
+.rightalign{
+  margin-right: 70px;
+}
+
+.title{
+  position: relative;
+  top: -190px;
+  left: 370px;
+  font-family:  heading;
+  font-size: 180px;
+  font-weight: 100;
+  font-weight: lighter;
+  transform: scaleX(1.5); /* 1.0 = normal, >1 = wider, <1 = narrower */
+  display: inline-block; 
+  height: 100px;
+  z-index: 3; 
+
+}
+
+.para{
+  font-family: mandira;
+  height: 90px;
+  width: 250px;
+  line-height: 25px;
+  margin-left: 70px;
+}
+
+.para h1{
+  font-family: mandiradark;
+  margin-bottom: 15px;
+}
+
+.para2{
+  position: relative;
+  font-family: madira;
+  height: 90px;
+  width: 250px;
+  line-height: 20px;
+  margin-left: -80px;
+  left: 500px;
+}
+
+.para2 h1{
+  font-family: mandiradark;
+  margin-bottom: 15px;  
+}
+
+.img1{
+height: 300px;
+width: 230px;
+background: url(./asdrubal-luna-A_hPa0Dcgpw-unsplash.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+bottom: 390px;
+left: 670px;
+z-index: 2;
+}
+
+.img2{
+height: 300px;
+width: 400px;
+background: url(./david-suarez-4a1nNlrS5ZI-unsplash.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+bottom:650px;
+left: 850px;
+}
+
+.img3{
+height: 300px;
+width: 230px;
+background: url(./alessia-marusova-KlkfFwXXbXc-unsplash.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+bottom: 1180px;
+left: 1150px;
+z-index: 0;
+}
+
+.box{
+  position: relative;
+  top: 25px;
+}
