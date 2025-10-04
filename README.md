@@ -1,1 +1,1 @@
-![Sweaters](Screenshot 2025-10-05 at 12.39.18 AM.png)
+![Sweaters](https://github.com/devxdebo/Sweaters/blob/main/Screenshot%202025-10-05%20at%2012.39.18%E2%80%AFAM.png)
